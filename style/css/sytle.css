@@ -711,3 +711,138 @@ h3 {
     height: 900px;
   }
 }
+
+/* ===========ABout Us page================ */
+/* LIST OF AUTHORS */
+#About_US .list_of_authors {
+  padding: 64px 0px;
+}
+.author_5 {
+  background-image: url(../images/AboutUS/author5.png);
+}
+.author_6 {
+  background-image: url(../images/AboutUS/author6.png);
+}
+.author_7 {
+  background-image: url(../images/AboutUS/author7.png);
+}
+.author_8 {
+  background-image: url(../images/AboutUS/author8.png);
+}
+/* COUNTER */
+.counter_content {
+  margin-left: 80px;
+  margin-top: -212px;
+}
+.counter_content .card {
+  padding: 32px 48px;
+  background: #ffd050;
+  border: none;
+  border-radius: 0px;
+}
+#About_US .why_we_started_image {
+  height: 445px;
+  background-position: center;
+}
+
+/*  */
+.counter_Line {
+  margin-left: 80px;
+  margin-top: -40px;
+}
+.counter_Line .card {
+  padding: 20px 48px;
+
+  border: none;
+  border-radius: 0px;
+}
+.left_line .card {
+  background: #592ea9 !important;
+}
+.right_line .card {
+  background: #ffd050;
+  margin-left: -30px;
+}
+#About_US .why_we_started {
+  padding: 200px 0px 0px;
+}
+
+#About_US .why_we_started .featured_card_content {
+  padding: 42px;
+  margin-top: 0px;
+}
+
+/* ABout page ABout us */
+.About_us {
+  padding: 64px 0px;
+}
+.About_us .about_card_container .card {
+  margin-top: -710px;
+  margin-left: 80px;
+  border: none;
+  border-radius: 0;
+}
+.about_us_text_container {
+  margin-bottom: 50px;
+}
+/* ABout US responsive*/
+@media (max-width: 1000px) {
+  .featured_card_content {
+    padding: 0px;
+  }
+  #About_US .why_we_started {
+    padding: 100px 0px 0px;
+  }
+  .About_us .about_card_container .card {
+    margin-top: -820px;
+  }
+  .counter_content {
+    margin-left: 80px;
+    margin-top: -242px;
+  }
+}
+
+@media (max-width: 700px) {
+  .About_us .about_card_container .card {
+    margin-top: -500px;
+  }
+  .counter_content .card {
+    display: none;
+  }
+  .counter_Line {
+    margin-left: 80px;
+    margin-top: -40px;
+    display: none;
+  }
+}
+
+/* Creative team */
+.Creative_team {
+  padding: 64px 0px;
+}
+.creative_team_image {
+  background-color: white;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 480px;
+  background-position-y: center;
+}
+.creative_image_url {
+  background-image: url("../images/AboutUS/Group\ 9201.png");
+}
+.creative_team_content {
+  padding: 55px 55px 55px 0px;
+}
+/* Why we srat Blog */
+.Why_we_start_blog {
+  padding: 64px 0px;
+}
+.we_start_blog_image {
+  background-image: url("../images/AboutUS/we_blog.png");
+  height: 510px;
+}
+.blog_team_content {
+  padding: 55px 0px 55px 55px;
+}
