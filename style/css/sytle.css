@@ -846,3 +846,39 @@ h3 {
 .blog_team_content {
   padding: 55px 0px 55px 55px;
 }
+
+/* =================Blog ================== */
+#Blog .hero {
+  background-image: none;
+  background-color: #f4f0f8;
+  /* height: 520px; */
+}
+
+#Blog .hero .subheading {
+  color: #232536;
+}
+#Blog .hero .display {
+  color: #232536;
+
+  font-size: 36px;
+}
+#Blog .date_container {
+  color: #4c4c4c;
+}
+#Blog .creative_team_image {
+}
+#Blog .creative_team_image {
+  background-color: white;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 480px;
+  background-position-y: center;
+}
+.creative_image_url {
+  background-image: url("../images/Blog/bd83d188028be8a810fd08204554ab09 (1).png");
+}
+/* #Blog .body_1 {
+  color: #6d6e76;
+} */
