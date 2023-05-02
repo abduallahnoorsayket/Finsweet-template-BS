@@ -710,6 +710,9 @@ h3 {
   .footer .navbar2 {
     height: 900px;
   }
+  .footer .footer_subscribe .btn_custom {
+    margin-top: 10px !important;
+  }
 }
 
 /* ===========ABout Us page================ */
@@ -764,7 +767,7 @@ h3 {
   margin-left: -30px;
 }
 #About_US .why_we_started {
-  padding: 200px 0px 0px;
+  padding: 150px 0px 0px;
 }
 
 #About_US .why_we_started .featured_card_content {
@@ -804,7 +807,8 @@ h3 {
 
 @media (max-width: 700px) {
   .About_us .about_card_container .card {
-    margin-top: -500px;
+    margin-top: -450px;
+    margin-left: 0px;
   }
   .counter_content .card {
     display: none;
@@ -813,6 +817,10 @@ h3 {
     margin-left: 80px;
     margin-top: -40px;
     display: none;
+  }
+  .About_us .about_us_text_container {
+    display: none;
+    margin-bottom: 150px;
   }
 }
 
@@ -847,7 +855,7 @@ h3 {
   padding: 55px 0px 55px 55px;
 }
 
-/* =================Blog ================== */
+/* =================Blog page ================== */
 #Blog .hero {
   background-image: none;
   background-color: #f4f0f8;
@@ -876,7 +884,7 @@ h3 {
   height: 480px;
   background-position-y: center;
 }
-.creative_image_url {
+.creative_image_url_ {
   background-image: url("../images/Blog/bd83d188028be8a810fd08204554ab09 (1).png");
 }
 /* #Blog .body_1 {
