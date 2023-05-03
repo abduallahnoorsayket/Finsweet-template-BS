@@ -235,13 +235,9 @@ label {
   padding-right: 8px;
 }
 .Navbar__Link a {
-  padding: 9px;
-  margin: 0 10px;
-  /* font-size: 14px; */
-  /* font-weight: 600; */
-  color: #fff;
-  /* text-transform: uppercase; */
-  /* letter-spacing: 1.5px; */
+  padding: 5px;
+  margin: 0px 8px;
+  color: rgb(255, 255, 255);
   position: relative;
   opacity: 1 !important;
 }
@@ -661,7 +657,7 @@ h3 {
   padding: 2.5rem 1rem 1rem 1rem;
 }
 .footer .navbar2 {
-  height: 560px;
+  height: 580px;
   /* height: auto; */
 }
 .footer_subscribe {
@@ -795,7 +791,7 @@ h3 {
 }
 /* ABout US responsive*/
 @media (max-width: 1000px) {
-  .featured_card_content {
+  #About_US .featured_card_content {
     padding: 0px;
   }
   #About_US .why_we_started {
@@ -804,7 +800,7 @@ h3 {
   .About_us .about_card_container .card {
     margin-top: -820px;
   }
-  .counter_content {
+  #About_US .counter_content {
     margin-left: 80px;
     margin-top: -242px;
   }
