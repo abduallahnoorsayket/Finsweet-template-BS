@@ -662,6 +662,7 @@ h3 {
 }
 .footer .navbar2 {
   height: 560px;
+  /* height: auto; */
 }
 .footer_subscribe {
   padding: 80px 64px;
@@ -706,7 +707,7 @@ h3 {
     margin-top: 30px;
   }
   .footer .navbar2 {
-    height: 815px;
+    height: 900px;
   }
 }
 
@@ -924,6 +925,9 @@ h3 {
 }
 
 @media (max-width: 700px) {
+  .hero_content {
+    padding: 64px 0;
+  }
 }
 /*  Blog All posts section */
 .All_posts {
@@ -1054,6 +1058,17 @@ h3 {
 #BlogPost .hero h3 {
   margin-top: 0px;
 }
+/* BlogPost Hero  Responsive*/
+@media (max-width: 1000px) {
+  #Blog .Category .card-body {
+    padding: 2rem;
+  }
+}
+@media (max-width: 700px) {
+  #BlogPost .hero_image {
+    padding: 132px 0px !important;
+  }
+}
 #BlogPost .hero_image {
   padding: 32px 0px;
 }
@@ -1062,4 +1077,152 @@ h3 {
 }
 #BlogPost .creative_team_image {
   height: 532px;
+}
+
+#BlogPost .hero_image .hero_content h2 {
+  color: #232536;
+}
+#BlogPost .hero_image .hero_content h4 {
+  color: #161722;
+}
+#BlogPost .hero_image .hero_content p {
+  color: #6d6e76;
+  margin: 16px 0 48px 0;
+}
+
+#BlogPost .hero_image .hero_description ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 20px;
+  color: #161722;
+  font-size: 18px;
+}
+#BlogPost ul + p {
+  margin: 24px 0 48px 0 !important;
+}
+
+/*  What to read next section */
+.what_to_read_next {
+  /* padding-left: 10px 0px; */
+  padding: 10px 0 60px 0;
+}
+
+.what_to_read_next #BlogCard .row {
+  /* background: red; */
+  flex-direction: column;
+}
+
+.what_to_read_next #BlogCard .row img {
+  max-width: 100%;
+  height: auto;
+}
+.what_to_read_next #BlogCard .card {
+  border: none;
+  border-radius: 0px;
+}
+.what_to_read_next #BlogCard .card .card-body {
+  padding: 1.25rem 0.5rem 1.25rem 0rem;
+}
+
+.what_to_read_next #BlogCard .card .card-text {
+  opacity: 0.7;
+  margin-top: 16px;
+}
+.what_to_read_next #BlogCard .card .body_1 .Purple {
+  font-weight: 500;
+}
+/* ============= Contact US ========= */
+
+#ContactUS .hero {
+  background-color: #ffffff;
+  background-image: none;
+  height: 350px;
+}
+
+#ContactUS .hero_content {
+  padding: 128px 10px 32px;
+}
+#ContactUS .Contact_card {
+  padding: 32px 0px 128px 0px;
+}
+
+#ContactUS .hero .subheading {
+  color: #232536;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+#ContactUS .hero .display {
+  color: #232536;
+  letter-spacing: -2px;
+  font-size: 48px;
+}
+#ContactUS .date_container {
+  color: #4c4c4c;
+}
+/* contact card */
+#ContactUS .Contact_card .card {
+  background: #592ea9;
+  padding: 48px 64px;
+}
+#ContactUS .Contact_card .card-body {
+  padding: 0px;
+}
+#ContactUS .contact_card_divider {
+  background: #ffffff;
+  opacity: 0.1;
+  /* Light */
+  border: 1px solid #ffffff;
+}
+
+#ContactUS .Contact_card .card h5 {
+  color: #ffffff;
+}
+#ContactUS .Contact_card .card .body_2 {
+  color: #ffffff;
+  font-weight: 400;
+  opacity: 0.6;
+  line-height: 20px;
+}
+#ContactUS .Contact_card .card .body_1 {
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+#ContactUS form {
+  margin: 32px 0px;
+}
+#ContactUS .form-group input {
+  padding: 24px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  border-radius: 2px;
+  height: 76px;
+  font-size: 16px;
+}
+#ContactUS .form-group select {
+  padding: 24px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  border-radius: 2px;
+  height: 76px;
+  font-size: 16px;
+}
+#ContactUS .btn_custom {
+  margin-top: 16px;
+}
+/* contact US  Responsive*/
+@media (max-width: 1000px) {
+}
+@media (max-width: 700px) {
+  #ContactUS .hero {
+    height: 450px;
+  }
+  #ContactUS .Contact_card .card-body {
+    margin-top: 15px;
+  }
+  #ContactUS .footer .navbar2 {
+    height: 1000px;
+  }
 }
