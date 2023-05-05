@@ -452,7 +452,7 @@ h3 {
 }
 /* category */
 .Category {
-  padding: 128px 80px;
+  padding: 128px 0px;
 }
 .category_cards {
   margin-top: 48px;
@@ -508,9 +508,9 @@ h3 {
 /* WHY WE STARTED  responssive*/
 
 @media (max-width: 700px) {
-  .about_US_content {
-    /* padding: 96px 40px; */
-  }
+  /* .about_US_content {
+    padding: 96px 40px;
+  } */
   .why_we_started_image {
     display: none;
   }
@@ -557,8 +557,8 @@ h3 {
   color: #232536;
   margin-right: 16px;
 }
-.list_of_authors .featured_card_content {
-}
+/* .list_of_authors .featured_card_content {
+} */
 .list_of_authors .card {
   background: #f4f4f4;
   border: none;
@@ -585,6 +585,11 @@ h3 {
 @media (max-width: 1000px) {
   .logo_list img {
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .logo_list .row {
+    text-align: center;
   }
 }
 
