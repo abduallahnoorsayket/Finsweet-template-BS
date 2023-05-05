@@ -44,13 +44,6 @@ h5 {
 h6 {
   font-size: 16px;
 }
-p {
-  /* font-family: "Poppins", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.8;
-  font-weight: 400;
-  color: gray; */
-}
 
 label {
   font-family: "Roboto", sans-serif;
@@ -177,14 +170,12 @@ label {
   border: none;
 }
 
-/* navbar / Header */
+/* NAVBAR / HEADER SECTION */
 /* .navbar {
   padding: 2.8rem 1rem;
 } */
 .header {
   background: #232536;
-
-  /* height: 90px; */
 }
 .header .container {
   padding: 1rem 0rem;
@@ -220,7 +211,6 @@ label {
   background: #232536;
   padding: 0px 0px !important;
   display: flex;
-  /* font-family: sans-serif; */
   color: white;
   justify-content: center;
 }
@@ -237,7 +227,6 @@ label {
 .Navbar__Items {
   display: flex;
   align-items: center;
-  /* gap: 30px; */
 }
 .Navbar__Items--right {
   margin-left: auto;
@@ -272,20 +261,16 @@ label {
   }
 }
 
-/* HERO SECTION */
+/* HERO SECTION  */
 .hero {
   background-image: url("../images/Home/pexels-andrea-piacquadioMiror.jpg");
   background-color: #cccccc;
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   height: 720px;
   background-position: 50% -320.594px;
   background-position-y: center;
-  /* background-attachment: fixed; */
-  /* -webkit-transform: scaleX(-1);
-  transform: scaleX(-1); */
 }
 .hero .overlay {
   position: absolute;
@@ -299,31 +284,21 @@ label {
 }
 
 .hero_content {
-  /* text-align: center;
-    position: absolute; */
   top: 50%;
   left: 50%;
-  /* transform: translate(-50%, -50%); */
   color: white;
   position: initial;
   padding: 128px 10px;
 }
 
 .hero h5 {
-  /* Cap 1 */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height, or 125% */
-
   letter-spacing: 3px;
   text-transform: uppercase;
-
-  /* Light */
-
   color: #ffffff;
 }
 .hero .display {
@@ -331,16 +306,11 @@ label {
   font-weight: 700;
   font-size: 56px;
   line-height: 64px;
-  /* or 114% */
-
   letter-spacing: -2px;
-
-  /* Light */
-
   color: #ffffff;
 }
 
-/* featrured posts */
+/* FEATURED POST SECTION */
 .featured_posts {
   padding: 128px 0px;
   background: white;
@@ -354,20 +324,14 @@ label {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  /* identical to box height, or 143% */
-
-  /* Dark Grey */
-
   color: #4c4c4c;
 }
 .featured_image {
   background-image: url("../images/Home/featured_image.png");
   background-color: #cccccc;
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
   height: 352px;
   background-position: 50% -208.594px;
 }
@@ -406,8 +370,6 @@ label {
 @media (max-width: 1000px) {
   .featured_image {
     background-image: url(../images/Home/featured_image.png);
-    /* background-color: #cccccc; */
-    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -415,7 +377,7 @@ label {
     background-position: 50% -88.594px;
   }
 }
-/* About US */
+/* ABOUT US SECTION */
 .About_us {
   background: white;
 }
@@ -429,13 +391,8 @@ label {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height, or 125% */
-
   letter-spacing: 3px;
   text-transform: uppercase;
-
-  /* Black */
-
   color: #232536;
 }
 .About_us h2,
@@ -443,14 +400,12 @@ h3 {
   margin-top: 24px;
 }
 
-/* .About_us .body_1 {
-} */
 @media (max-width: 700px) {
   .about_US_content {
     padding: 96px 40px;
   }
 }
-/* category */
+/* CATEGORY SECTION*/
 .Category {
   padding: 128px 0px;
 }
@@ -480,7 +435,7 @@ h3 {
   }
 }
 
-/* WHY WE STARTED */
+/* WHY WE STARTED SECTION */
 .why_we_started {
   padding-bottom: 128px;
 }
@@ -508,9 +463,6 @@ h3 {
 /* WHY WE STARTED  responssive*/
 
 @media (max-width: 700px) {
-  /* .about_US_content {
-    padding: 96px 40px;
-  } */
   .why_we_started_image {
     display: none;
   }
@@ -520,12 +472,11 @@ h3 {
   }
 }
 
-/* LIST OF AUTHORS */
+/* LIST OF AUTHORS SECTION */
 .list_of_authors {
   padding-bottom: 96px;
 }
 .list_of_authors .card-body {
-  /* padding: 0; */
   padding: 35px 15px;
 }
 .author_image {
@@ -557,8 +508,7 @@ h3 {
   color: #232536;
   margin-right: 16px;
 }
-/* .list_of_authors .featured_card_content {
-} */
+
 .list_of_authors .card {
   background: #f4f4f4;
   border: none;
@@ -577,7 +527,7 @@ h3 {
     margin-bottom: 30px;
   }
 }
-/* LIST OF LOGOS */
+/* LIST OF LOGOS  SECTION */
 .logo_list {
   padding-bottom: 96px;
 }
@@ -593,7 +543,7 @@ h3 {
   }
 }
 
-/* TESTIMONIAL */
+/* TESTIMONIAL SECTION  */
 .testimonial .about_US_content {
   background: #fbf6ea;
 }
@@ -639,32 +589,28 @@ h3 {
   font-size: 15px;
   margin-right: 15px;
 }
-/*  LIST OF LOGOS responsive */
+/*  testimonial responsive */
 @media (max-width: 1000px) {
   .testimonial_right {
     margin-top: 30px;
   }
 }
-/* JOIN OUR TEAM */
+/* JOIN OUR TEAM  SECTION */
 .join_our_team {
   padding: 128px 0px;
 }
-/* FOOTER  */
-/* .footer_header_content {
-} */
+/* FOOTER   SECTION */
+
 .footer .header .container {
   padding: 2.5rem 1rem 1rem 1rem;
 }
 .footer .header {
   height: 580px;
-  /* height: auto; */
 }
 .footer_subscribe {
   padding: 80px 64px;
   background: #ffffff;
-  /* opacity: 0.05; */
   margin-top: 50px;
-
   background: #2e3040;
 }
 
@@ -716,7 +662,7 @@ h3 {
 }
 
 /* ===========ABout Us page================ */
-/* LIST OF AUTHORS */
+/* LIST OF AUTHORS SECTION  ABOUT US*/
 #About_US .list_of_authors {
   padding: 64px 0px;
 }
@@ -732,7 +678,7 @@ h3 {
 .author_8 {
   background-image: url(../images/AboutUS/author8.png);
 }
-/* COUNTER */
+/* COUNTER  SECTION */
 .counter_content {
   margin-left: 80px;
   margin-top: -212px;
@@ -775,7 +721,7 @@ h3 {
   margin-top: 0px;
 }
 
-/* ABout page ABout us */
+/*ABOUT US PAGE ABOUT US  SECTION*/
 .About_us {
   padding: 64px 0px;
 }
@@ -824,13 +770,12 @@ h3 {
   }
 }
 
-/* Creative team */
+/* CREATIVE TEAM SECTION */
 .Creative_team {
   padding: 64px 0px;
 }
 .creative_team_image {
   background-color: white;
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -843,7 +788,7 @@ h3 {
 .creative_team_content {
   padding: 55px 55px 55px 0px;
 }
-/* Why we srat Blog */
+/* WHY WE STARTED BLOG SECTION */
 .Why_we_start_blog {
   padding: 64px 0px;
 }
@@ -856,6 +801,7 @@ h3 {
 }
 
 /* =================Blog page =============== */
+/* BLOG HERO SECTION */
 #Blog .hero {
   background-image: none;
   background-color: #f4f0f8;
@@ -879,7 +825,6 @@ h3 {
 
 #Blog .creative_team_image {
   background-color: white;
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -890,10 +835,6 @@ h3 {
 .blog_hero_image_url {
   background-image: url("../images/Blog/BlogHeroimage.png");
 }
-
-/* #Blog .body_1 {
-  color: #6d6e76;
-} */
 
 /* Blog  hero responsive */
 @media (max-width: 1000px) {
@@ -924,7 +865,7 @@ h3 {
     padding: 64px 0;
   }
 }
-/*  Blog All posts section */
+/* BLOG ALL POSTS SECTION*/
 .All_posts {
   padding: 64px 0px;
 }
@@ -967,14 +908,12 @@ h3 {
 }
 
 .All_posts .previous {
-  /* background-color: #f1f1f1; */
   color: #6d6e76;
   font-size: 22px;
   line-height: 32px;
 }
 
 .All_posts .next {
-  /* background-color: #04aa6d; */
   color: #232536;
   font-size: 28px;
   line-height: 40px;
@@ -1005,7 +944,7 @@ h3 {
 
 @media (max-width: 700px) {
 }
-/* All Category Section */
+/* ALL CATEGORY SECTION */
 #Blog .Category {
   padding: 0px !important;
 }
@@ -1021,11 +960,11 @@ h3 {
   }
   #Blog .All_posts .card-body {
     padding: 1rem 1rem;
-    /* width: 100%; */
   }
 }
 
 /* ===============Blog post page =========== */
+/* BLOG POST HERO SECTION */
 #BlogPost .hero {
   background-image: none;
   background-color: #ffffff;
@@ -1100,14 +1039,12 @@ h3 {
   margin: 24px 0 48px 0 !important;
 }
 
-/*  What to read next section */
+/*  WHAT WE WANT TO READ SECTION */
 .what_to_read_next {
-  /* padding-left: 10px 0px; */
   padding: 10px 0 60px 0;
 }
 
 .what_to_read_next #BlogCard .row {
-  /* background: red; */
   flex-direction: column;
 }
 
@@ -1131,7 +1068,7 @@ h3 {
   font-weight: 500;
 }
 /* ============= Contact US ========= */
-
+/* CONTACT US HERO */
 #ContactUS .hero {
   background-color: #ffffff;
   background-image: none;
@@ -1158,7 +1095,7 @@ h3 {
 #ContactUS .date_container {
   color: #4c4c4c;
 }
-/* contact card */
+/* CONTACT CARD */
 #ContactUS .Contact_card .card {
   background: #592ea9;
   padding: 48px 64px;
@@ -1169,7 +1106,6 @@ h3 {
 #ContactUS .contact_card_divider {
   background: #ffffff;
   opacity: 0.1;
-  /* Light */
   border: 1px solid #ffffff;
 }
 
